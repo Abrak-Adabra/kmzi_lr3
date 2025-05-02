@@ -129,7 +129,7 @@ export default function MainPage() {
                     height: `calc(100% - 56px)`,
                 }}>
                 <Row>
-                    <Col xs={3}>
+                    <Col xs={3} style={{ marginLeft: 20 }}>
                         <Row>Имя пользователя:</Row>
                         <Row>
                             <b>{name}</b>
